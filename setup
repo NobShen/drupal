@@ -1,0 +1,12 @@
+# first install lando
+# then install composer scaffold for your drupal project
+# this can be done by downloading the zip file at this location: https://github.com/drupal-composer/drupal-project.git
+# rename this directory to lando-drupal
+# then cd into the directory and lando init
+# create lando in current directory
+# then select drupal 9 from menu
+# make sure webroot is at /web
+# then name the project as drupal9-lando
+# then lando start to spin up all the containers needed
+# then lando composer install to build out drupal with composer
+# 
