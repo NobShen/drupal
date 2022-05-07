@@ -10,3 +10,12 @@
 # then lando start to spin up all the containers needed
 # then lando composer install to build out drupal with composer
 # 
+ NAME            lando-drup9                           
+ LOCATION        /Users/jasonvu/Downloads/lando-drupal 
+ SERVICES        appserver, database                   
+ APPSERVER URLS  https://localhost:50229               
+                 http://localhost:50230                
+                 http://lando-drup9.lndo.site/         
+                 https://lando-drup9.lndo.site/      
+                 
+# # lando info to find info about id/pw of mysql
