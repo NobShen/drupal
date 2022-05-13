@@ -1,4 +1,5 @@
 # first install lando by downloading a zip file here https://github.com/lando/lando/releases
+  ## note: lando requires Rosetta (emulation layer) to run on Mac M1
 # then install composer scaffold for your drupal project
 # this can be done by downloading the zip file at this location: https://github.com/drupal-composer/drupal-project.git
 # rename this directory to lando-drupal
