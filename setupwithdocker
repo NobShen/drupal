@@ -1,2 +1,5 @@
 # first install docker
-# 
+# then fork drupal-composer/drupal-project project https://github.com/drupal-composer/drupal-project
+# download and unpack docker4drupal.tar.gz to project root https://github.com/wodby/docker4drupal/releases
+# delete docker-compose.override.yml (only needed to deploy vanilla Drupal)
+# ensure 
