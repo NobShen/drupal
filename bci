@@ -1,0 +1,53 @@
+I/ EEG - a brief overview
+
+http://en.wikipedia.org/wiki/Electroencephalography
+- history of EEG
+- different EEG frequency bands
+
+EEG Setup:
+
+http://www.bci2000.org/wiki/index.php/User_Tutorial:EEG_Measurement_Setup
+- aspects of EEG
+- electrode placement, typical EEG artifacts...especially of eye motion
+- undesirable signals that get picked up by the EEG system
+
+Typical EEG Signals:
+
+http://emedicine.medscape.com/article/1139332-overview#aw2aab6b3
+- "Alpha waves", "Beta waves", "Theta waves", and such
+
+http://emedicine.medscape.com/article/1139332-overview#aw2aab6b3
+- shape of the waves ("morphology" of the waves)
+- "Sleep Spindles" and "K Complexes"
+
+http://www.ccs.fau.edu/~bressler/EDU/NSP/References/Niedermeyer_1999.pdf
+- Alpha waves
+
+II/ Brain Control Interfaces - Different Approaches
+- invasive - implants electrodes directly in your brain
+- non-invasive - BCIs that sense your brain waves by electrodes on the scalp
+
+
+How BCIs listen to the signals from your brain (via your scalp):
+- Frequency Analysis 
+	- nearly everyone produces alpha waves when they close their eyes
+	- look at more frequency bands at different or multiple locations on the scalp
+	- people cannot control the frequency content of the signals in their head. 
+	- how to control your mental state such as "alertness", "relaxation", "focus", etc.  
+	- It requires much practice and, has yielded unreliable results.  
+	- But, it is easy to implement on the computer.
+- Mu Wave (Mu Rhythms) Detection
+	- Mu waves are special because they occur in the combined sensorimotor cortex 
+	- If the electrodes are in the right place, Mu waves show up when the body is relaxed.
+	- When muscles contract the Mu waves in that part of the brain get suppressed (Sensory Homunculus)
+	- the EEG setup is a little harder, but one's ability to actually control these brain waves is much better. 
+	- more information on how to do a Mu wave BCI
+	  http://www.bci2000.org/wiki/index.php/User_Tutorial:Mu_Rhythm_BCI_Tutorial
+	- the only electrodes needed to capture Mu Wave the ones over the motor cortex.   
+- Event-Related Potentials (ERPs)
+	- ERPs are EEG measurements of a particular sensory stimulus, which then causes a response in the brain.  
+	- Often visual stimuli are used via a computer screen.  
+	- if user is paying attention to the visual stimuli, EEG shows one type of response. 
+	- if user ignores the stimuli, EEG show a different response.  
+	- User can interact with the computer through focusing (or not) on the visual stimuli.
+	  http://www.bci2000.org/wiki/index.php/User_Tutorial:P300_BCI_Tutorial
