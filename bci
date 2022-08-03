@@ -70,24 +70,26 @@ How BCIs listen to the signals from your brain (via your scalp):
   - THETA
   	- lie within the range of 4 to 7 Hz, with an amplitude usually greater than 20 µ V. 
 	- Theta arises from emotional stress, especially frustration or disappointment. 
-	- Theta has been also associated with access to unconscious material, creative inspiration and deep meditation. The large dominant peak of the theta waves is around 7 Hz.
-DELTA. Delta waves lie within the range of 0.5 to 4 Hz, with variable amplitude. Delta waves are primarily associated with deep sleep, and in the waking state, were thought to indicate physical defects in the brain. It is very easy to confuse artifact signals caused by the large muscles of the neck and jaw with the genuine delta responses. This is because the muscles are near the surface of the skin and produce large signals whereas the signal which is of interest originates deep in the brain and is severely attenuated in passing through the skull. Nevertheless, with an instant analysis EEG, it is easy to see when the response is caused by excessive movement. 
-GAMMA. Gamma waves lie within the range of 35Hz and up. It is thought that this band reflects the mechanism of consciousness - the binding together of distinct modular brain functions into coherent percepts capable of behaving in a re-entrant fashion (feeding back on themselves over time to create a sense of stream-of-consciousness). 
-MU. It is an 8-12 Hz spontaneous EEG wave associated with motor activities and maximally recorded over motor cortex (Fig. 2-8). They diminish with movement or the intention to move. Mu wave is in the same frequency band as in the alpha wave (Fig. 2-7), but this last one is recorded over occipital cortex. 
-Following his description of the different wave groups, he's got this nice tidbit, speaking to BCI:
+	- Theta has been also associated with access to unconscious material, creative inspiration and deep meditation. 
+	- The large dominant peak of the theta waves is around 7 Hz.
+  - DELTA
+  	- Delta waves lie within the range of 0.5 to 4 Hz, with variable amplitude. 
+	- Delta waves are primarily associated with deep sleep, and in the waking state, were thought to indicate physical defects in the brain. 
+	- It is very easy to confuse artifact signals caused by the large muscles of the neck and jaw with the genuine delta responses. 
+	- because the muscles are near the surface of the skin and produce large signals whereas the signal which is of interest originates deep in the brain and is severely attenuated in passing through the skull. 
+	- Nevertheless, with an instant analysis EEG, it is easy to see when the response is caused by excessive movement. 
+  - GAMMA
+  	- Gamma waves lie within the range of 35Hz and up. 
+	- this band reflects the mechanism of consciousness - the binding together of distinct modular brain functions into coherent percepts capable of behaving in a re-entrant fashion (feeding back on themselves over time to create a sense of stream-of-consciousness). 
+  - MU
+  	- It is an 8-12 Hz spontaneous EEG wave associated with motor activities and maximally recorded over motor cortex. 
+	- They diminish with movement or the intention to move. 
+	- Mu wave is in the same frequency band as in the alpha wave, but this last one is recorded over occipital cortex. 
+
 Most attempts to control a computer with continuous EEG measurements work by monitoring alpha or [beta] waves, because people can learn to change the amplitude of these two waves by making the appropriate mental effort. A person might accomplish this result, for instance, by recalling some strongly stimulating image or by raising his or her level of attention. 
 In the quote above, he fails to mention Mu Waves as a source of conscious control (simply think about moving a major body part and the Mu Waves go away), but he does include it later in his document. 
 
 Returning to the subject of alpha and beta waves, consciously affecting the balance of these two waves seems like an interesting (though difficult) target for driving a BCI.  I've attempted this, but with the exception of closing my eyes to induce big alpha waves, I'm currently unable to affect my alpha to beta balance.  I need more practice!
-
-Posted by Chip at 3:15 PM 
-Email This
-BlogThis!
-Share to Twitter
-Share to Facebook
-Share to Pinterest
-Labels: Frequency Analysis
-2 comments:
 
 UnknownJanuary 20, 2014 at 12:14 PM
 Wait, you say mu waves are recorded over the occipital cortex? I thought that, given its corresponding activity in motor function, it would be better recorded from frontal/parietal locations, given M1 is just anterior to the central sulcus.
