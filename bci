@@ -67,6 +67,10 @@ How BCIs listen to the signals from your brain (via your scalp):
 	- a peak in the beta range as high as 20 Hz, which has the characteristics of an alpha state rather than a beta.
 	- Alpha alone seems to indicate an empty mind rather than a relaxed one, a mindless state rather than a passive one, 
 	- can be reduced or eliminated by opening the eyes, by hearing unfamiliar sounds, or by anxiety or mental concentration.
+	- There are several sources of activity in the Alpha range.  
+	- The most common trigger for Alpha waves is simply to close your eyes.  
+	- In most people, closing your eyes idles the visual cortex (the whole back portion of your brain...the "occipital" region), which causes Alpha waves to appear throughout the rear portion of the brain.  This called the Posterior Dominant Rhythm.  The Mu Waves, by contrast, are associated with the sensorimotor portion of your brain, so they should only appear in the signals from the electrodes over that part of the brain.
+
   - THETA
   	- lie within the range of 4 to 7 Hz, with an amplitude usually greater than 20 µ V. 
 	- Theta arises from emotional stress, especially frustration or disappointment. 
@@ -85,23 +89,19 @@ How BCIs listen to the signals from your brain (via your scalp):
   	- It is an 8-12 Hz spontaneous EEG wave associated with motor activities and maximally recorded over motor cortex. 
 	- They diminish with movement or the intention to move. 
 	- Mu wave is in the same frequency band as in the alpha wave, but this last one is recorded over occipital cortex. 
+	- Mu Waves appear naturally when your body is physically relaxed.  
+	- The appearance of the Mu Waves are an indication that the sensorimotor portion of your brain is "idling".  
+	- When you move a major body part, those portions of your brain stop "idling", and the Mu Waves are "suppressed" during the motor activity.  
+	- Amazingly, this portion of your brain exhibits the same Mu Wave suppression simply by imagining the motion of a body part.  Even better, the specific portion of your cortex where the Mu Waves are suppressed is linked to the body part that you're imagining moving.  Now that's cool!
+	- The different regions of the sensorimotor cortex, *roughly* correspond to different body parts.  
+	- Feet and legs are near the top of the head.  Hands are near the middle.  
+	- Face and tongue are near the bottom of the cortex, which on your scalp is located just above your ears.
+	- The Mu rhythm occurs in the frequency range commonly referred to as Alpha waves (8-12 Hz).  
+	- if you hook up an EEG sensor system to your scalp, and if you put some electrodes exactly over the sensorimotor portion of your brain, you should be able to see Mu Waves when you relax your body.  
+	- read the tutorial from BCI2000 to get a better idea of where to put electrodes and which electrodes to use for reference and bias.
+	  https://www.youtube.com/watch?v=NgKhJjoO-Qw&t=39s
+	- the presence or absence of Mu Waves is pretty easy to see
+	- If you imagine moving just your feet, the Mu waves are only suppressed in a small portion of your sensorimotor cortex that, for the feet, is near the top of your head.  
+	- Imagining moving your hands suppresses the Mu waves in a different part of the cortex (down closer to the ears).  So, with more electrodes -- electrodes that are carefully placed over the different regions of the sensorimotor cortex -- we should be able to distinguish between thoughts of moving your hands versus moving your feet.   
+	  https://www.youtube.com/watch?v=jXpjRwPQC5Q&t=8s
 
-Most attempts to control a computer with continuous EEG measurements work by monitoring alpha or [beta] waves, because people can learn to change the amplitude of these two waves by making the appropriate mental effort. A person might accomplish this result, for instance, by recalling some strongly stimulating image or by raising his or her level of attention. 
-In the quote above, he fails to mention Mu Waves as a source of conscious control (simply think about moving a major body part and the Mu Waves go away), but he does include it later in his document. 
-
-Returning to the subject of alpha and beta waves, consciously affecting the balance of these two waves seems like an interesting (though difficult) target for driving a BCI.  I've attempted this, but with the exception of closing my eyes to induce big alpha waves, I'm currently unable to affect my alpha to beta balance.  I need more practice!
-
-UnknownJanuary 20, 2014 at 12:14 PM
-Wait, you say mu waves are recorded over the occipital cortex? I thought that, given its corresponding activity in motor function, it would be better recorded from frontal/parietal locations, given M1 is just anterior to the central sulcus.
-
-Reply
-Replies
-
-ChipJanuary 20, 2014 at 3:30 PM
-Hi, thanks for the comment!
-
-Regarding the reference to Mu over the occipital cortex, that does seem a bit weird, eh? So, I went back to the original reference (linked at the top of the post) and, yes, that's what he said. It has to be a typo. It can't be right. It's just silly.
-
-Now I'm no master of anatomy, so in my own Mu wave measurements (http://eeghacker.blogspot.com/search/label/Mu%20Waves) I usually measured right along the tragion-tragion arc, thinking that was basically on top of the central sulcus. 
-
-Because of your comment, though, I went back to the google to find more images of where the sulcus is placed relative to external features of the head. I found these images: http://www.studyblue.com/notes/note/n/final-lab-practical/deck/6034721. These images suggest that, for the lower region of the motor sensorimotor cortex, I should bias my measurement forward a bit. I did not know that it slanted so far forward!
