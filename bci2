@@ -1,0 +1,32 @@
+Goal:  setup to see Mu waves.
+
+Equipment: need some EEG electrodes and an EEG system:
+- use re-usable gold-plated cup electrodes from Biopac (EL160) and Ten20 paste, also available from Biopac
+- use OpenBCI system.  
+- use Arduino Uno to pump the EEG data from the OpenBCI board to a PC.  
+- On the PC, run some software to capture the data from the serial port.  
+
+EEG Montage:  
+- a key challenge with measuring Mu waves is to get the electrodes in the right place.  
+- They must be over the sensorimotor cortex or you're not going to see them.  
+Another View Showing the Electrode Locations Used in My Testing
+
+Test Plan:  So we need a test plan that will help me see Mu waves, which means that part of my test needs to have me be physically relaxed.  Then I need to make the Mu waves go away, which means that part of my test needs to have me move my body (I'll move my hand).  Actually, let's get fancy...I'm just going to *think* about moving my hand.  Finally, if I do see Mu waves, I need to make sure that I'm not just seeing alpha waves from the back of my head, so a third part of my test will be to close my eyes to induce my Posterior Dominant Rhythm, which are Alpha waves from the back of my head that expresses the idling of my visual cortex.  OK, I've got three parts of my test: relaxed, thinking about moving my hand, and relaxing but with my eyes closed.  I'm going to do this all while seated in a chair.
+
+Data from the Oz, my Visual Cortex:  The data that I collected is messy.  This is true of most data that is ever collected from a living, breathing human being.  To help make sense of the data, I'm going to talk about the easier results first...and those are the results from the electrode at location Oz, on the back of my head.  The plot below is a spectrogram of the signal recorded at Oz.  Time is on the horizontal axis and signal frequency on the vertical axis.  A pixel's color indicates the intensity of the signal at that pixel's time and frequency.  The reason that I'm showing this plot first is because of the obviousness of the red horizontal lines that appear when my eyes are closed.  These red lines indicate strong sinusoidal signals around 9-10 Hz that are sustained when my eyes are closed.  Because it only occurs when my eyes are closed, this is certainly my Posterior Dominant Rhythm (PDR).  These are not Mu waves.  Therefore, moving forward, any signal that occurs at these times and these frequencies in my other electrodes will simply by this PDR being detected from afar.  Again, these are not Mu waves and can be ignored.
+
+
+Horizontal Lines are my Posterior Dominant Rhythm
+Data from the C3, my Sensorimotor Cortex:  Now that we know what to ignore, the plot below shows a spectrogram of the data from electrode C3, with is located over my SM cortex.  Probably the easiest thing to see (though it is generally messy all around) are weaker versions of the horizontal lines that appear when I close my eyes.  As discussed above, these are my PDR and should be ignored.  They are not Mu waves. What is more interesting in this plot are the faint horizontal lines a little higher in frequency (~12 Hz) that only seem to occur when I'm relaxed.  Note that, when I think about moving my hand, they go away.  These must be Mu waves!  I found them!
+
+
+Some Mu Waves Are Occasionally Seen Around 12 Hz When Relaxed.
+
+Plan for Live Feedback:  OK, so with this one test, I've shown that I can detect my Mu waves when I'm relaxed and that I can make them go away when I think about moving a body part.  That's pretty exciting. The signals are really weak, though.  It's hard to see them and it'll be hard to get the computer to detect them reliably.  Apparently, I'm not good at getting sufficiently relaxed.  My next step, therefore, is to generate some sort of live feedback based on the strength of my Mu waves.  I to do this, I will modify my PC software to process the data and make a dinging sound or something in proportion to the strength of the signal at 12 Hz.  This live feedback will tell my I'm doing the right thing.   As a result, I should be able to train myself to do a better job making Mu waves.
+
+Plan for BCI:  Once I get better at making Mu waves, it will be easier for the computer to differentiate between my relaxed state (strong Mu waves) and my "thinking about my hand" state (no Mu waves).  Once the computer can differentiate between these two states, I will have my magical brain-controlled interface.  Moreover, since the brain is sided (left side vs right side), the computer should be able to tell the difference between thinking about the left hand versus thinking about the right hand.  With two controls (left and right) we can start doing more complex activities...like moving robot arms back and forth...or like changing the television channel up and down...or like driving a rover forward and back.
+
+Yeah, this is gonna be cool...
+
+Follow-Up: I recorded more Mu waves using some homemade electrodes
+Follow-Up: I can now view my Mu waves using a real-time spectrogram in my Processing GUI
